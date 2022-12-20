@@ -46,13 +46,13 @@ public class PneumoAssestment {
 
         driver.findElement(By.id("menu-cta")).click();
 
-        driver.findElement(By.id("registration_username")).sendKeys("TestNewUser88123Test");
-        driver.findElement(By.id("registration_email")).sendKeys("TestnewUser88@gmail.com");
-        driver.findElement(By.id("registration_password")).sendKeys("TestnewPassword123@88");
+        driver.findElement(By.id("registration_username")).sendKeys("T2estNewUser88123Test");
+        driver.findElement(By.id("registration_email")).sendKeys("T2estnewUser88@gmail.com");
+        driver.findElement(By.id("registration_password")).sendKeys("T2estnewPassword123@88");
 
-        driver.findElement(By.className("register-form-line")).click();
+        driver.findElement(By.id("registration_submit")).click();
 
-        Thread.sleep(15000);
+        Thread.sleep(6000);
         driver.quit();
     }
 
